@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Shoe Store</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="product">
+                <div class="product-image">
+                    <img src="shoes.jpg" alt="Running Shoes">
+                </div>
+                <div class="product-details">
+                    <h2>Running Shoes</h2>
+                    <p class="price">$89.99</p>
+                    <p class="description">
+                        Experience the ultimate in comfort and performance with our premium running shoes. Perfect for runners of all levels.
+                    </p>
+                    <form class="purchase-form">
+                        <label for="size">Size:</label>
+                        <select id="size" name="size">
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                        </select>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                        <button type="submit">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
